@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #242424;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

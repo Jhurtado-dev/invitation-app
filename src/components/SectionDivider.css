@@ -1,0 +1,14 @@
+.section-divider {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.section-divider-image {
+  width: 100%;
+  max-width: 1400px;   /* controla qué tan grande se ve */
+  height: auto;
+  object-fit: contain;
+}

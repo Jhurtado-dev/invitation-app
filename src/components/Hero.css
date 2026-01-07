@@ -1,0 +1,39 @@
+.hero {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 76px 24px 0px 24px;
+  background: #fff;
+}
+
+/* IMAGEN */
+.hero-image {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 16px;
+
+  /* estado inicial */
+  opacity: 0;
+  transform: scale(0.95);
+  animation: fadeInZoom 1.4s ease-out forwards;
+}
+
+/* ANIMACIÓN */
+@keyframes fadeInZoom {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    min-height: auto;     /* 🔑 quita el 100vh */
+    padding: 70px 16px 0px 16px;   /* menos espacio vertical */
+  }
+
+  .hero-image {
+    max-height: 55vh;     /* 🔑 imagen más baja */
+  }
+}
