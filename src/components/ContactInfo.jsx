@@ -9,7 +9,7 @@ export default function ContactInfo() {
         <p className="contact-text">
           ¡Te esperamos!
           <br />
-          Si tienes alguna duda comunícate con mis papis.
+          Por favor confirma tu asistencia con mis papis.
         </p>
 
         <div className="contact-whatsapp">
@@ -19,7 +19,7 @@ export default function ContactInfo() {
             rel="noopener noreferrer"
           >
             <FaWhatsapp />
-            PAPI
+            Papi
           </a>
 
           <a
@@ -28,7 +28,7 @@ export default function ContactInfo() {
             rel="noopener noreferrer"
           >
             <FaWhatsapp />
-            MAMI
+            Mami
           </a>
         </div>
       </div>

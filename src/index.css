@@ -4,10 +4,18 @@
 
 html,
 body {
-  background-color: #fff;
-  color: #242424;
-  font-family: 'Montserrat Alternates', sans-serif;
+   margin: 0;
+  min-height: 100vh;
+
+  background-image: url("./assets/Fondo.png");
+  background-size: cover;       /* ocupa toda la pantalla */
+  background-position: center;  /* centrada */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* efecto elegante */
+
+  font-family: "Poppins", sans-serif;
 }
+
 img {
   max-width: 100%;
   height: auto;

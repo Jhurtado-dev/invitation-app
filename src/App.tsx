@@ -9,6 +9,7 @@ import InvitationMessage from "./components/InvitationMessage";
 import Countdown from "./components/Countdown";
 import Gallery from "./components/Gallery";
 import ContactInfo from "./components/ContactInfo";
+import BirthdayHighlight from './components/BirthdayHighlight';
 export default function App() {
 
   return (
@@ -16,6 +17,8 @@ export default function App() {
     <Confetti />
      <Navbar />
       <Hero />
+      <SectionDivider />
+      <BirthdayHighlight />
       <SectionDivider />
       <InvitationMessage />
       <SectionDivider />
