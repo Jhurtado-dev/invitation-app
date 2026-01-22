@@ -6,14 +6,10 @@ export default function InvitationMessage() {
     <section id="invitacion" className="invitation-message">
       <div className="invitation-card">
         <p>
-          Te invitamos a festejar el cumpleaños número{" "}
-          <strong>5</strong> de <strong>Amelia</strong>, será el{" "}
+          Te invitamos a festejar mi cumpleaños {" "}
+          <strong>#5</strong>, será el{" "}
           <strong>sábado 11 de abril</strong> a la{" "}
-          <strong>1:00 PM</strong> en{" "}
-          <strong>
-            calle 5 de Mayo esquina con Cristóbal Colón,
-            San Lucas Tepemajalco
-          </strong>.
+          <strong>1:00 PM</strong>
         </p>
 
         <p className="highlight">

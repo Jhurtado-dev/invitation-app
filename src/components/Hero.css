@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   padding: 76px 24px 0px 24px;
-  background: #fff;
 }
 
 /* IMAGEN */
@@ -34,6 +33,6 @@
   }
 
   .hero-image {
-    max-height: 55vh;     /* 🔑 imagen más baja */
+    max-height: 70vh;     /* 🔑 imagen más baja */
   }
 }

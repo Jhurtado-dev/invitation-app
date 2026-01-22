@@ -8,7 +8,22 @@
 
 .section-divider-image {
   width: 100%;
-  max-width: 1400px;   /* controla qué tan grande se ve */
+  max-width: 2600px;
   height: auto;
   object-fit: contain;
+}
+
+/* 📱 MÓVIL */
+@media (max-width: 768px) {
+  .section-divider-image {
+    transform: scale(1.15);
+  }
+  .section-divider {
+    padding: 20px 0; /* más aire vertical */
+  }
+
+  .section-divider-image {
+    width: 150%;     /* hace que se vea más grande */
+    max-width: none; /* quita el límite en móvil */
+  }
 }
