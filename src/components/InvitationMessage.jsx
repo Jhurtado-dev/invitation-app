@@ -8,8 +8,8 @@ export default function InvitationMessage() {
         <p>
           Te invitamos a festejar mi cumpleaños {" "}
           <strong>#5</strong>, será el{" "}
-          <strong>sábado 11 de abril</strong> a la{" "}
-          <strong>1:00 PM</strong>
+          <strong>sábado 16 de mayo</strong> a las{" "}
+          <strong>2:00 PM</strong>
         </p>
 
         <p className="highlight">
